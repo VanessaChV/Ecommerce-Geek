@@ -17,3 +17,8 @@ body {
 	font-size: 14px;
     text-decoration: none;
 }
+
+.bannerPrincipal {
+    background: url(/assets/img/banner-fondo.png);
+    background-size: cover;
+}
