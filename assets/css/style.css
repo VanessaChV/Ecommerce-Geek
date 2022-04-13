@@ -2,13 +2,14 @@ body {
     font-family: 'Raleway', Arial,sans-serif;
 }
 
-.header {
+.container {
     background-color: #FFFFFF;
-    padding: 20px 0;
+	padding: 16px;
+    margin: 0 auto;
 }
 
-.container {
-	margin: 0 auto;
+.header__items-logo {
+    
 }
 
 .header__boton {
