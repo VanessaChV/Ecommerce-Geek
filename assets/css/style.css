@@ -8,17 +8,8 @@ body {
     margin: 0 auto;
 }
 
-.header__items-logo {
-    
-}
-
 .header__boton {
     font-weight: "semi bold";
 	font-size: 14px;
     text-decoration: none;
-}
-
-.bannerPrincipal {
-    background: url(/assets/img/banner-fondo.png);
-    background-size: cover;
 }

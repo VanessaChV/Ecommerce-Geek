@@ -1,0 +1,48 @@
+.bannerPrincipal {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 1rem;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+    background-image: url(./assets/img/banner-image.png);
+
+}
+
+.bannerPrincipal__titulo {
+    font-family: 'Raleway', Arial,sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    padding-bottom: 1rem;
+}
+
+.bannerPrincipal__descuento {
+    font-family: 'Raleway', Arial,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    padding-bottom: 1rem;
+}
+
+.bannerPrincipal__boton {
+    align-items: center;
+    background: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;    
+    color: #FFFFFF;
+    flex-direction: row;
+    padding: 1rem 2rem;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
