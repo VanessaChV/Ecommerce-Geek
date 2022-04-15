@@ -1,4 +1,11 @@
-.galeriaProductos__titulo {
+.galeriaProductos__header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.galeriaProductos__header--titulo {
     color: #464646;
     font-family: 'Raleway';
     font-style: normal;
@@ -7,6 +14,32 @@
     line-height: 26px;
 }
 
+.galeriaProductos__header--mas {
+    align-items: center;
+    display: flex;
+}
+
+.galeriaProductos__verTodo {
+    color: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
 .galeriaProductos__starWars-items {
+
+}
+
+.producto__nombre {
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.producto__precio {
 
 }
