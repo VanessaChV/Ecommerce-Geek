@@ -2,6 +2,10 @@
     background: #EAF2FD;
 }
 
+.footer__formulario {
+    padding: 1rem;
+}
+
 .footer__informacion {
     align-items: initial;
     flex-direction: column;
@@ -27,5 +31,56 @@
     font-size: 16px;
     line-height: 19px;
     margin: 16px 0px;
+}
+
+.footer__formulario--titulo {
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    align-self: stretch;
+    flex: none;
+    flex-grow: 0;
+    order: 0;
+    margin: 8px 0px;
+}
+
+.input-padron {
+    background: #FFFFFF;
+    border-radius: 4px;
+    border-color: #FFFFFF;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 1rem;
+    width: 90%;
+
+    color: #A2A2A2;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.principal__boton {
+    margin-top: 8px;
+}
+
+.footer__developer {
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.developer {
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
 }
 
