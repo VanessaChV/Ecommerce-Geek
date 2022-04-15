@@ -28,7 +28,11 @@
     line-height: 16px;
 }
 .galeriaProductos__starWars-items {
-
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
 .producto__nombre {
