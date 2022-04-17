@@ -18,3 +18,58 @@
     flex-direction: row;
     padding: 1rem 2rem;
 }
+
+.header__items-buscar {
+}
+
+@media screen and (min-width: 768px) {
+   
+    .header__items-buscador {
+        align-items: center;
+        background-color: #F5F5F5;
+        border-radius: 20px;
+        display: flex;
+        height: auto;
+        justify-content: space-between;
+        padding: 0px;
+    }
+
+    .header__items-buscar {
+        align-items: center;   
+        background-color: transparent;
+        border: none;
+        border-radius: 20px;
+        display: none;
+        display: inline-block;
+        padding: 1rem;
+    }
+
+    .header__items-buscar::placeholder {
+        color: #A2A2A2;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    } 
+
+    .header__items-buscar:focus {
+        outline: none;
+    }
+
+    .header__input-lupa {
+        border: none;
+        background-color: transparent;
+        background-image: url(../img/header/search.png);
+        background-repeat: no-repeat;
+        cursor: pointer;
+        height: 24px;
+        margin-right: 1rem;
+        width: 24px;
+    }
+
+    .header__items-lupa {
+        display: none;
+    }
+       
+}
