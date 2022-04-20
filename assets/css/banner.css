@@ -3,6 +3,7 @@
     align-self: stretch;
     background-image: url(../img/banner-image.png);
     background-size: cover;
+    box-sizing: ;
     display: flex;
     flex-direction: column;
     flex-grow: 0;
@@ -33,6 +34,7 @@
     font-weight: 600;
     line-height: 16px;
     margin: 8px 0px;
+    width: 60%;
 }
 
 .principal__boton {
@@ -54,4 +56,31 @@
 
 @media screen and (min-width: 768px) {
 
+    .bannerPrincipal {
+        background-size: 352px 768px;
+        background: norepeat;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 0;
+        justify-content: flex-end;
+        padding: 1rem;
+    }
+    
+    .bannerPrincipal__titulo {
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 61px;
+        margin: 16px 0px;
+    }
+
+    .bannerPrincipal__descuento {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26px;
+        margin: 16px 0px;
+    }
+
+
+    
+    
 }
