@@ -1,5 +1,5 @@
 .footer {
-    background: #5a5a5a;
+    background: #2d333b;
     width: 100%;
     box-sizing: border-box;
 }
@@ -54,6 +54,7 @@
     flex-direction: column;
     width: 100%;
 }
+
 .footer__formulario--titulo {
     color: #bdb5b5;
     font-family: 'Raleway';
@@ -92,7 +93,7 @@
 }
 
 .footer__developer {
-    background-color: #3a3a3a;
+    background-color: #22272e;
     padding-bottom: 2rem;
     padding-top: 2rem;
     text-align: center;

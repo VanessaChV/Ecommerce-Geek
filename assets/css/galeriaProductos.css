@@ -1,5 +1,5 @@
 .galeriaProductos {
-    background: #3a3a3a;
+    background: #22272e;
 }
 
 .galeriaProductos__header {
@@ -64,7 +64,7 @@
 }
 
 .producto__ver {
-    color: #2A7AE4;
+    color: #3e9bf5;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
