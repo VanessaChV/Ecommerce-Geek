@@ -27,7 +27,7 @@
                 <nav class="container">
 
                     <ul class="header__items">
-                        <li class="header__items-logo"><img src="./assets/img/header/Logo.png" alt="Logo Alura Geek"></li>
+                        <li ><img src="./assets/img/header/Logo Alura Geek.png" alt="Logo Alura Geek" class="header__items-logo"></li>
                         <li>
                             <div class="header__items-buscador">
                                 <input type="text" class="header__items-buscar" placeholder="¿Qué querés buscar?">
@@ -35,7 +35,7 @@
                             </div>    
                         </li>
                         <li class="header__items-boton"><a class="header__boton"  href="#">Login</a></li>
-                        <li class="header__items-lupa"><img src="./assets/img/header/lupa.png" alt="Ícono lupa"></li>
+                        <li ><img src="./assets/img/header/lupa.png" alt="Ícono lupa" class="header__items-lupa"></li>
                     </ul>
 
                 </nav>
@@ -203,37 +203,40 @@
 
         <footer class="footer">
 
-            <section class="footer__informacion">
+            <section class="footer__principal">
 
-                <img src="./assets/img/header/Logo.png" alt="Logo" class="footer__logo"></img>
+                <div class="footer__informacion">
 
-                <ul class="footer__links">
-                    <li class="footer__links--items"><a href="#">Quienes somos</a></li>
-                    <li class="footer__links--items"><a href="#"></a>Política de privacidad</li>
-                    <li class="footer__links--items"><a href="#">Política de fidelidad</a></li>
-                    <li class="footer__links--items"><a href="#">Nuestras tiendas</a></li>
-                    <li class="footer__links--items"><a href="#"></a>Quiero ser franquiciado</li>
-                    <li class="footer__links--items"><a href="#">Anunciá acá</a></li>
-                </ul>
-                
-            </section>
+                    <img src="./assets/img/Logo Footer.svg" alt="Logo" class="footer__logo"></img>
 
-            <section class="footer__formulario">
-
-                <p class="footer__formulario--titulo">Hablemos</p>
-
-                <form class="seccion__form">
-
-                    <label for="nombreapellido"></label>
-                    <textarea cols="70" rows="2" class="input-padron" required placeholder="Nombre y Apellido"></textarea>
-                   
-                    <label for="mensaje"></label>
-                    <textarea cols="70" rows="10" class="input-padron" required placeholder="Escribí tu mensaje"></textarea>
+                    <ul class="footer__links">
+                        <li class="footer__links--items"><a href="#">Quienes somos</a></li>
+                        <li class="footer__links--items"><a href="#"></a>Política de privacidad</li>
+                        <li class="footer__links--items"><a href="#">Política de fidelidad</a></li>
+                        <li class="footer__links--items"><a href="#">Nuestras tiendas</a></li>
+                        <li class="footer__links--items"><a href="#"></a>Quiero ser franquiciado</li>
+                        <li class="footer__links--items"><a href="#">Anunciá acá</a></li>
+                    </ul>
                     
-                    <input type="submit" value="Enviar mensaje" class="principal__boton">
+                </div>
 
-                </form>
+                <div class="footer__formulario">
 
+                    <p class="footer__formulario--titulo">Hablemos</p>
+
+                    <form class="footer__formulario--form">
+
+                        <label for="nombreapellido"></label>
+                        <textarea cols="70" rows="2" class="input-padron" required placeholder="Nombre y Apellido"></textarea>
+                    
+                        <label for="mensaje"></label>
+                        <textarea cols="70" rows="10" class="input-padron" required placeholder="Escribí tu mensaje"></textarea>
+                        
+                        <input type="submit" value="Enviar mensaje" class="principal__boton">
+
+                    </form>
+
+                </div>
             </section>
 
             <section class="footer__developer">
