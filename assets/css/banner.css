@@ -46,6 +46,7 @@
     color: #FFFFFF;
     flex-direction: row;
     padding: 1rem 2rem;
+    text-align: center;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -76,10 +77,7 @@
         line-height: 26px;
         width: 100%;
     }
-
-
-    
-    
+ 
 }
 
 /* Photo by <a href="https://unsplash.com/@theeastlondonphotographer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ehimetalor Akhere Unuabona</a> on <a href="https://unsplash.com/s/photos/play-videogames?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

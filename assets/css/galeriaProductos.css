@@ -20,6 +20,7 @@
 
 .galeriaProductos__header--mas {
     align-items: center;
+    cursor: pointer;
     display: flex;
 }
 

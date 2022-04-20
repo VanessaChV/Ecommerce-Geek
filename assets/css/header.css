@@ -5,6 +5,8 @@
 }
 
 .header__items-logo {
+    cursor: pointer;
+    width: 115px;
 }
 
 .header__items {
@@ -29,7 +31,15 @@
 }
 
 @media screen and (min-width: 768px) {
-   
+    
+    .header__items {
+        justify-content: space-around;
+    }
+    
+    .header__items-logo {
+        width: 100%;
+    }
+    
     .header__items-buscador {
         align-items: center;
         background-color: #F5F5F5;
