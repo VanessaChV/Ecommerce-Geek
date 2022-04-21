@@ -93,13 +93,19 @@
 }
 
 .footer__developer {
+    align-items: center;
     background-color: #22272e;
     padding-bottom: 2rem;
     padding-top: 2rem;
     text-align: center;
 }
 
+.iconify {
+    cursor: pointer;
+}
+
 .developer {
+    align-items: center;
     color: #bdb5b5;
     font-family: 'Raleway';
     font-style: normal;
