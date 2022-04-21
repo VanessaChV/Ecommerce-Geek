@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+
+        <title>Login</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="assets/css/banner.css">
+        <link rel="stylesheet" href="assets/css/footer.css">
+        <link rel="stylesheet" href="assets/css/galeriaProductos.css">
+        <link rel="stylesheet" href="assets/css/header.css">
+        <link rel="stylesheet" href="assets/css/login.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+      
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <header class="header">
+
+            <nav class="container">
+
+                <ul class="header__items">
+
+                    <li><img src="./assets/img/Logo Principal.svg" alt="Logo Alura Geek" class="header__items-logo"></li>
+                    
+                    <li>
+                        <div class="header__items-buscador">
+                            <input type="text" class="header__items-buscar" placeholder="¿Qué querés buscar?">
+                            <button class="header__input-lupa"></button>
+                        </div>    
+                    </li>
+
+                    <li class="header__items-boton"><a class="header__boton"  href="#">Login</a></li>
+                    
+                    <li><img src="./assets/img/header/lupa.png" alt="Ícono lupa" class="header__items-lupa"></li>
+                
+                </ul>
+
+            </nav>
+
+    </header>
+    
+        <main>
+
+            <div class="iniciarSesion">
+
+                <p class="iniciarSesion__formulario--titulo">Iniciar Sesión</p>
+
+                <form class="iniciarSesion__formulario--form">
+
+                    <label for="mail"></label>
+                    <input type="email" class="input-form" required placeholder="Escribí tu mail">
+                    
+                    <label for="contraseña"></label>
+                    <input type="password" class="input-form" required data-tipo="password" placeholder="Escribí tu contraseña">
+                    
+                    <input type="submit" value="Entrar" id="entrar" class="principal__boton">
+
+                </form>
+
+            </div>
+
+        </main>
+
+        <footer class="footer">
+
+            <section class="footer__principal">
+
+                <div class="footer__informacion">
+
+                    <img src="./assets/img/Logo Principal.svg" alt="Logo" class="footer__logo"></img>
+
+                    <ul class="footer__links">
+                        <li class="footer__links--items"><a href="#">Quienes somos</a></li>
+                        <li class="footer__links--items"><a href="#"></a>Política de privacidad</li>
+                        <li class="footer__links--items"><a href="#">Política de fidelidad</a></li>
+                        <li class="footer__links--items"><a href="#">Nuestras tiendas</a></li>
+                        <li class="footer__links--items"><a href="#"></a>Quiero ser franquiciado</li>
+                        <li class="footer__links--items"><a href="#">Anunciá acá</a></li>
+                    </ul>
+                    
+                </div>
+
+                <div class="footer__formulario">
+
+                    <p class="footer__formulario--titulo">Hablemos</p>
+
+                    <form class="footer__formulario--form">
+
+                        <label for="nombreapellido"></label>
+                        <textarea cols="70" rows="2" class="input-padron" required placeholder="Nombre y Apellido"></textarea>
+                    
+                        <label for="mensaje"></label>
+                        <textarea cols="70" rows="10" class="input-padron" required placeholder="Escribí tu mensaje"></textarea>
+                        
+                        <input type="submit" value="Enviar mensaje" class="principal__boton">
+
+                    </form>
+
+                </div>
+                
+            </section>
+
+            <section class="footer__developer">
+
+                <h4 class="developer">&copy Copyright VChV Design - 2022  <span class="iconify" data-icon="akar-icons:linkedin-box-fill" style="color: #bdb5b5;"><a href="https://www.linkedin.com/in/vchv/"></a></span>
+                       <span class="iconify" data-icon="akar-icons:github-fill" style="color: #bdb5b5;"><a href="https://github.com/VanessaChV"></a></span></h4>               
+
+                <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+                <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+            </section>
+
+        </footer>
+
+
+    </body>
+
+</html>
+

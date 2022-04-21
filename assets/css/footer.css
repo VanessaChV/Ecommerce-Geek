@@ -60,7 +60,7 @@
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 19px;
     
     align-self: stretch;
@@ -85,6 +85,17 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
+}
+
+.input-padron::placeholder {
+    align-items: center;
+    color: #A2A2A2;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 4px 4px;
 }
 
 .principal__boton {
